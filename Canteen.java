@@ -14,7 +14,7 @@ public class Canteen {
         double finalAmount = 0;
 
         while (again == 'Y' || again == 'y'){
-            System.out.println("==== CANTEEN MENU ====");// i2 lng puh available xa menu namin maem..
+            System.out.println("==== CANTEEN MENU ====");
             for(int i = 0; i < menu.length; i++){
                 System.out.println((i + 1) + ". " + menu[i] + " - $" + String.format("%.2f", price[i]));
             }
@@ -23,7 +23,7 @@ public class Canteen {
             int quantity = 0;
             boolean validInput = false;
 
-            do{ // 1 2 3 go kaniya kaniya na hahahhaha
+            do{
                 System.out.print("\nEnter the item number: ");
                 itemNumber = scanner.nextInt();
                 System.out.print("Enter the quantity: ");
